@@ -1,0 +1,158 @@
+
+.titulo{
+	background-color: #90CAF9;
+	box-shadow: 10px 5px 5px black;
+}
+.titulo h1{
+	font-size: 50px;
+	font-weight: 300;
+	font-family: Comic Sans MS;
+	color: #00695C
+}
+
+.titulo h3{
+	font-size: 30px;
+	font-weight: 300;
+	font-family: Comic Sans MS;
+	color: #00695C
+}
+
+html{
+    
+      background-image: url('22.jpg'); /*ACAAAAAAA SE CAMBIA LA IMAGEN!!!!!!*/
+      background-attachment: fixed;
+}
+
+/*CAJAS*/
+
+.primer-p{
+	background-color: #90CAF9;
+	box-shadow: 10px 5px 5px black;
+	width: 70%;
+	float: left;
+	font-weight: 400;
+}
+
+.segunda-p{
+	background-color: #90CAF9;
+	box-shadow: 10px 5px 5px black;
+	width: 70%;
+	float: left;
+	font-weight: 400;
+}
+
+.tercera-p{
+	background-color: #90CAF9;
+	box-shadow: 10px 5px 5px black;
+	width: 70%;
+	float: left;
+}
+
+.lateral{
+	background-color: #90CAF9;
+	box-shadow: 10px 5px 5px black;
+	width: 25%;
+	height: 330px;
+	position: fixed;
+
+	right: 50px;
+	top: 300px;
+}
+
+
+
+/*EFECTOS*/
+
+.primer-p p{
+	font-family: Arial;
+	font-size: 18px;
+	background-color: #90CAF9;
+}
+
+.primer-p h3{
+	font-size: 30px;
+	font-weight: 300;
+	font-family: Comic Sans MS;
+	background-color: #90CAF9;
+	color: #00695C;
+}
+
+.primer-p ul{
+	font-family: Arial;
+	font-size: 18px;
+	background-color: #90CAF9;
+}
+
+.primer-p img{
+	width: 800px;
+	height: 300px;
+}
+
+.primer-p .caja{
+	background-color: rgb(255, 212, 51);
+	box-shadow: 10px 5px 5px black;
+}
+
+.segunda-p h3{
+	font-size: 30px;
+	font-weight: 300;
+	font-family: Comic Sans MS;
+	background-color: #90CAF9;
+	color: #00695C
+}
+
+.segunda-p p{
+	font-family: Arial;
+	font-size: 18px;
+	background-color: #90CAF9;
+}
+
+.segunda-p ul{
+	font-family: Arial;
+	font-size: 18px;
+	background-color: #90CAF9;
+}
+
+.segunda-p ol{
+	font-family: Arial;
+	font-size: 18px;
+	background-color: #90CAF9;
+}
+
+.lateral h3{
+	font-size: 30px;
+	font-weight: 300;
+	font-family: Comic Sans MS;
+	background-color: #90CAF9;
+	color: #00695C
+}
+
+.lateral p{
+	font-family: Arial;
+	font-size: 18px;
+	background-color: #90CAF9;
+}
+
+
+
+
+
+
+.lateral a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400;
+	border: 2px solid white;
+	border-radius: 5px 5px 5px 5px;
+	margin-top: 20px;
+	padding: 10px 30px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.4);
+	transition: 0.4s;
+}
+
+.lateral a:hover{
+	background-color: white;
+	color: black;
+	transition: 0.4s;
+}
